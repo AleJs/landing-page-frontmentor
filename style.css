@@ -496,7 +496,7 @@ footer{
 .hero2_description{
   right: 10%;
   top: 8%;
-     display: flex;
+
     flex-direction: column;
     justify-content: center;
     padding: 2em;
