@@ -537,9 +537,16 @@ footer{
 .hero2_description{
   right: 10%;
   top: 8%;
+<<<<<<< HEAD
   height: 30%;
 align-items: center;
  flex-direction: column;    padding: 2em;
+=======
+
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+>>>>>>> deec717a5d3c91b0030b180293e5efae6cdcb34b
     position: relative;
   width: 100%;
   z-index: 4;
