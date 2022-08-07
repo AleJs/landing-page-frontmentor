@@ -72,6 +72,32 @@
   box-sizing: border-box;
   font-family: 'Josefin Sans', sans-serif;
 }
+.deep:hover{
+  filter: brightness(120%);
+}
+
+.night:hover{
+  filter: brightness(120%);
+}
+
+.grid:hover{
+  filter: brightness(120%);
+}
+.from:hover{
+  filter: brightness(120%);
+}
+.pocket:hover{
+  filter: brightness(120%);
+}
+.curio:hover{
+  filter: brightness(120%);
+}
+.make:hover{
+  filter: brightness(120%);
+}
+.soccer:hover{
+  filter: brightness(120%);
+}
 
 .text2{
   display: none;
@@ -139,6 +165,13 @@
   margin-bottom: 1em;
   color: white;
   font-size: 2em;
+  
+}
+nav li:hover{
+  cursor: pointer;
+}
+nav li:hover{
+  border-bottom: 1px solid orangered;
 }
 .hamburguesa_menu{
  
@@ -173,6 +206,7 @@ align-items: center;
 
 ion-icon {
   font-size: 32px;
+  cursor: pointer;
 }
 
 .hero1{
@@ -195,7 +229,9 @@ ion-icon {
  font-size: 2.1em;
 line-height:1.2em
 }
-
+.h{
+  cursor: pointer;
+}
 .hero2{
   height: 100vh;
   background-color: var(--white);
@@ -209,6 +245,7 @@ line-height:1.2em
 }
 
 .hero2 img{
+  object-fit: cover;
   margin-bottom: 2em ;
   height: 38%;
     width: 90%;
@@ -339,6 +376,7 @@ line-height:1.2em
   z-index: 2;
 }
 .our2 div img {
+  
   border-radius: 3px;
   filter: brightness(50%);  
   /* background-image: linear-gradient(
@@ -357,8 +395,11 @@ line-height:1.2em
 
 height: 20%;
 
-}
 
+}
+button{
+  cursor: pointer;
+}
 .but button {
   height: 36%;
   background-color: var(--White);
@@ -496,8 +537,9 @@ footer{
 .hero2_description{
   right: 10%;
   top: 8%;
- 
-    padding: 2em;
+  height: 30%;
+align-items: center;
+ flex-direction: column;    padding: 2em;
     position: relative;
   width: 100%;
   z-index: 4;
@@ -552,7 +594,10 @@ footer{
 .our2 div img{
   filter: brightness(100%); 
   height: 40vh;
+  cursor: pointer;
 }
+
+
 .our2 div span{
   top: 75%
 }
@@ -569,7 +614,7 @@ footer{
 }
 .footer-menu{
   width: 100%;
-  margin-left: 2em;
+  margin-left: 4em;
   align-items: flex-start;
 }
 .footer-menu nav{
